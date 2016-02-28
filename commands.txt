@@ -1,2 +1,12 @@
-This is my created file.
-new branch changes.
+1. Створити локальний репозиторій (консоль) - git init
+3. Приєднати свій локальний репозиторій до новоствореного на GitHub (консоль) - git remote add origin https://github.com/williyamino/UIcourse_lecture2.git
+5. Зробити commit доданого файлу (консоль) - git add commands.txt, git commit -m "commit changes again"
+6. Зробити push доданого файлу на віддалений репозиторій на GitHub (консоль) - git push -u origin master 
+7. Створити нову гілку new-branch (консоль) - git branch new-branch 
+8. Перейти на нову гілку (консоль) - git checkout new-branch
+10. Зробити commit файлу (консоль) - git add commands.txt, git commit -m "commit changes"
+11. Зробити push файлу з локальної гілки new-branch на віддалену гілку new-branch 
+(віддалена гілка автоматично створиться, якщо її не буде) (консоль) - git push -u origin new-branch
+12. Переключитись назад на гілку master (консоль) - git checkout master
+13. Змерджити гілку new-branch на гілку master (поточна) (консоль)  - git merge new-branch 
+14. Зробити push гілки master у гілку master у віддаленому репозиторії на GitHub (консоль) - git push -u origin master
